@@ -99,7 +99,7 @@ const account4 = {
 };
 
 const account5 = {
-  owner: "Adedamola Olatomide",
+  owner: "Seun Igbagbo",
   movements: [50000, 5300, -1500, -5000, -700, -1000, 89000, -15000],
   interestRate: 1.8,
   pin: 5555,
