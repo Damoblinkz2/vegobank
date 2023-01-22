@@ -176,12 +176,12 @@ const displayMovements = (acc, sort = false) => {
     const html = `
       <div class="movements__row">
       <div class='row'>
-      <div class='col-sm-12 col-md-6'>
+      <div class='col-sm-12 col-md-8'>
         <div class="movements__type movements__type--${type}">${
       i + 1
     } ${type}</div>
     </div>
-        <div class='col-sm-12 col-md-6'>
+        <div class='col-sm-12 col-md-4'>
         <div class="movements__date">${displayDate}</div>
         </div>
         </div>
