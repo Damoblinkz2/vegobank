@@ -98,7 +98,28 @@ const account4 = {
   locale: "en-US",
 };
 
-const accounts = [account1, account2, account3, account4];
+const account5 = {
+  owner: "Adedamola Olatomide",
+  movements: [50000, 5300, -1500, -5000, -700, -1000, 89000, -15000],
+  interestRate: 1.8,
+  pin: 5555,
+
+  movementsDates: [
+    "2021-11-01T13:15:33.035Z",
+    "2021-11-30T09:48:16.867Z",
+    "2022-12-25T06:04:23.907Z",
+    "2022-01-25T14:18:46.235Z",
+    "2022-02-05T16:33:06.386Z",
+    "2022-04-10T14:43:26.374Z",
+    "2023-01-10T18:49:59.371Z",
+    "2023-01-11T12:01:20.894Z",
+  ],
+  currency: "NGN",
+  usdRate: 454.56,
+  locale: "en-US",
+};
+
+const accounts = [account1, account2, account3, account4, account5];
 
 /////////////////////////////////////////////////
 // Elements
