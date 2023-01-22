@@ -88,10 +88,6 @@ nav {
   position: relative;
   max-width: 100rem;
   margin: 4rem auto;
-  display: grid;
-  grid-template-columns: 4fr 3fr;
-  grid-template-rows: auto repeat(3, 15rem) auto;
-  gap: 2rem;
 
   /* NOTE This creates the fade in/out anumation */
   opacity: 0;
@@ -100,9 +96,6 @@ nav {
 
 .balance {
   grid-column: 1 / span 2;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
   margin-bottom: 2rem;
 }
 
@@ -120,11 +113,12 @@ nav {
 .balance__value {
   font-size: 4.5rem;
   font-weight: 400;
+  text-align: right;
 }
 
 /* MOVEMENTS */
 .movements {
-  grid-row: 2 / span 3;
+  /* grid-row: 2 / span 3; */
   background-color: #fff;
   border-radius: 1rem;
   overflow: scroll;
@@ -169,7 +163,6 @@ nav {
 
 /* SUMMARY */
 .summary {
-  grid-row: 5 / 6;
   display: flex;
   align-items: baseline;
   padding: 0 0.3rem;
@@ -211,6 +204,8 @@ nav {
   border-radius: 1rem;
   padding: 3rem 4rem;
   color: #333;
+  height: 175px;
+  margin: 25px 0;
 }
 
 .operation--transfer {

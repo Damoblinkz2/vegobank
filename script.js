@@ -161,7 +161,7 @@ const allNUmINt = (userObject, value) => {
 
 // DISPLAY MOVEMENT
 const displayMovements = (acc, sort = false) => {
-  // containerMovements.innerHTML = "";
+  containerMovements.innerHTML = "";
 
   const movs = sort
     ? acc.movements.slice().sort((a, b) => a - b)
