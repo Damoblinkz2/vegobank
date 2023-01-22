@@ -369,7 +369,7 @@ btnTransfer.addEventListener("click", (e) => {
       // Doing the transfer
       currentAccount.movements.push(-amount);
       receiverAcc.movements.push(
-        (amount * currentAccount.usdRate) / receiverAcc.usdRate
+        (amount / currentAccount.usdRate) * receiverAcc.usdRate
       );
     } else if (
       currentAccount.currency === "GBP" &&
